@@ -26,5 +26,5 @@ public class Calculator {
             throw new IllegalArgumentException(String.join("\n", negatiiviset)); // tarkistettu tekoälyltä syntaksi
         }
         }
-        return (float) summa / nums.length;
+        return (float) summa / nums.length; //joko toimii
     }
