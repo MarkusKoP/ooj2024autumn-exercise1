@@ -16,7 +16,7 @@ public class Testaus {
     }
 
     public void Testaus_selectionSort(){
-        int[] Testi_Lista = {10,20,30,40,50};
+        int[] Testi_Lista = {50,40,30,20,10};
         int[] Haluttu_Lista = {10, 20, 30, 40, 50};
 
         Sorter.selectionSort(Testi_Lista);
