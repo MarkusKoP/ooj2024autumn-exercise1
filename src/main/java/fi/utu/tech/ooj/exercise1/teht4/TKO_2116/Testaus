@@ -1,0 +1,53 @@
+import java.util.Arrays;
+
+public class Testaus {
+
+    public void Testaus_bubbleSort() {
+        int[] Testi_Lista = {10,20,30,40,50};
+        int[] Haluttu_Lista = {50, 40, 30, 20, 10};
+
+        Sorter.bubbleSort(Testi_Lista);
+        if (Arrays.equals(testiLista, odotettuLista)) {
+        System.out.println("Järjestys toimii");
+        }
+        else{
+        System.out.println("Järjestys ei toimi");
+        }
+    }
+
+    public void Testaus_selectionSort(){
+        int[] Testi_Lista = {10,20,30,40,50};
+        int[] Haluttu_Lista = {10, 20, 30, 40, 50};
+
+        Sorter.selectionSort(Testi_Lista);
+        if (Arrays.equals(testiLista, odotettuLista)) {
+        System.out.println("Järjestys toimii");
+        }
+        else{
+        System.out.println("Järjestys ei toimi");
+        }
+
+    public void Testaus_bubbleSort(){
+        int[] Testi_Lista = {};
+        int[] Haluttu_Lista = {};
+
+        Sorter.bubbleSort(Testi_Lista);
+        if (Arrays.equals(testiLista, odotettuLista)) {
+        System.out.println("Lista tyhjä");
+        }
+        else{
+        System.out.println("Listassa sisältöä");
+        }
+
+    public void Testaus_selectionSort(){
+        int[] Testi_Lista = {};
+        int[] Haluttu_Lista = {};
+
+        Sorter.selectionSort(Testi_Lista);
+        if (Arrays.equals(testiLista, odotettuLista)) {
+        System.out.println("Lista tyhjä");
+        }
+        else{
+        System.out.println("Listassa sisältöä");
+        }
+    }
